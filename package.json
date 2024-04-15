@@ -2,11 +2,12 @@
   "engines": {
     "node": ">=18"
   },
+  "type": "module",
   "dependencies": {
     "@langchain/core": "^0.1.41",
     "@langchain/openai": "^0.0.16",
     "@pinecone-database/pinecone": "^1.1.1",
-    "colors": "^1.4.0",
+    "chalk": "^5.3.0",
     "dotenv": "^16.3.1",
     "langchain": "^0.1.25",
     "pdf-parse": "^1.1.1",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/prompt-sync": "^4.2.1",
     "@types/readline-sync": "^1.4.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2"
   }
 }
