@@ -15,14 +15,8 @@ import {
   AIMessage,
   SystemMessage,
 } from "@langchain/core/messages";
-import {
-  StringOutputParser,
-  JsonOutputParser,
-} from "@langchain/core/output_parsers";
-import {
-  RunnablePassthrough,
-  RunnableSequence,
-} from "@langchain/core/runnables";
+import { StringOutputParser } from "@langchain/core/output_parsers";
+import { RunnableSequence } from "@langchain/core/runnables";
 
 const model = new ChatOpenAI({ modelName: "gpt-3.5-turbo", temperature: 0.1 });
 const stringOutput = new StringOutputParser();
