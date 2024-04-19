@@ -2,9 +2,7 @@
 
 # langchainjs-example-2024
 
-## NOTE
-
-A presentation(pdf) which can be read along with example here can be found in the root of the repo.
+**NOTE: A presentation(pdf) which can be read along with example here can be found in the root of the repo.**
 
 This repository includes some examples that cover different usages of langchainJS (and open AI's LLM):
 
