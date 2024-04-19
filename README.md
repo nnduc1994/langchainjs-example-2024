@@ -2,6 +2,10 @@
 
 # langchainjs-example-2024
 
+## NOTE
+
+A presentation(pdf) which can be read along with example here can be found in the root of the repo.
+
 This repository includes some examples that cover different usages of langchainJS (and open AI's LLM):
 
 - **1-simple-example-and-chatbot** A quick and simple tutorial on how to get started with Langchain JS. How to build a chatbot with nodeJS and langchain. Introducing the concept of `chain` and adding memory to the chatbot
